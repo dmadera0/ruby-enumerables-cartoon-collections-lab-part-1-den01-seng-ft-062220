@@ -7,6 +7,6 @@ end
 def list_dwarves(array)
   index = 0
  array.each_with_index do |dwarves|
-  puts "#{index + 1} #{dwarves}"
+  puts "#{index++} #{dwarves}"
 end
 end
